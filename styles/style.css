@@ -1,0 +1,143 @@
+* {
+    font-family: 'Montserrat';
+}
+
+header,
+section,
+footer {
+    outline: solid green;
+}
+
+.container {
+    width: 972px;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding-top: 44px;
+    padding-bottom: 109px;
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.logo {
+    font-family: 'Bilbo Swash Caps';
+    font-size: 36px;
+    letter-spacing: 1.3px;
+    line-height: 1.13;
+    color: #FED136;
+}
+
+.header-list {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.header-page {
+    color: #FED136;
+    font-size: 14px;
+    line-height: 2.92;
+}
+
+.services {
+    padding-bottom: 119px;
+}
+
+.services-title {
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 87.5px;
+}
+
+.services-list {
+    display: flex;
+    gap: 56px;
+}
+
+.services-item {
+    outline: solid yellow;
+}
+
+.services-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 4.16;
+    color: #222222;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.services-description {
+    color: #777777;
+    font-family: 'Roboto Slab';
+    text-align: center;
+}
+
+.massage {
+    background-color: #222222;
+    padding-top: 92px;
+    padding-bottom: 115px;
+}
+
+.massage-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.21;
+    text-transform: uppercase;
+}
+
+.massage-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.massage-input {
+    width: 455px;
+    padding: 12px 310px 21px 20px;
+    border: 1px solid #CCCCCC;
+}
+
+.massage-input::placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #BBBBBB;
+    font-size: 14px;
+    line-height: 1.21;
+}
+
+.massage-textarea {
+    border: 1px solid #CCCCCC;
+    padding: 14px 286px 181px 22px;
+}
+
+.massage-textarea::placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #BBBBBB;
+    font-size: 14px;
+    line-height: 1.21;
+}
+
+.massage-btn {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #FED136;
+    color: #FFFFFF;
+    line-height: 1.21;
+    margin-top: 27px;
+    padding: 18px 33px 28px;
+}
