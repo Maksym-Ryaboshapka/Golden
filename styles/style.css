@@ -2,18 +2,11 @@
     font-family: 'Montserrat';
 }
 
-header,
-section,
-footer {
-    outline: solid green;
-}
-
 .container {
     width: 972px;
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: solid red;
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,8 +30,8 @@ footer {
 
 .header-list {
     display: flex;
+    gap: 40px;
     margin-left: auto;
-    gap: 10px;
 }
 
 .header-page {
@@ -63,10 +56,7 @@ footer {
 .services-list {
     display: flex;
     gap: 56px;
-}
-
-.services-item {
-    outline: solid yellow;
+    justify-content: center;
 }
 
 .services-subtitle {
@@ -82,36 +72,53 @@ footer {
     color: #777777;
     font-family: 'Roboto Slab';
     text-align: center;
+    max-width: 304px;
 }
 
-.massage {
+.footer {
     background-color: #222222;
     padding-top: 92px;
     padding-bottom: 115px;
 }
 
-.massage-title {
+.footer-flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
     color: #FFFFFF;
     font-weight: 700;
     text-align: center;
     font-size: 40px;
     line-height: 1.21;
     text-transform: uppercase;
+    margin-bottom: 116px;
 }
 
-.massage-list {
+.footer-list {
     display: flex;
     flex-direction: column;
     gap: 28px;
+    margin-right: 28px;
 }
 
-.massage-input {
+.footer-input {
     width: 455px;
     padding: 12px 310px 21px 20px;
     border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    width: 455px;
 }
 
-.massage-input::placeholder {
+.footer-input::placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #BBBBBB;
@@ -119,12 +126,15 @@ footer {
     line-height: 1.21;
 }
 
-.massage-textarea {
+.footer-textarea {
     border: 1px solid #CCCCCC;
     padding: 14px 286px 181px 22px;
+    border-radius: 5px;
+    width: 458px;
+    max-height: 212px;
 }
 
-.massage-textarea::placeholder {
+.footer-textarea::placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #BBBBBB;
@@ -132,12 +142,13 @@ footer {
     line-height: 1.21;
 }
 
-.massage-btn {
+.footer-btn {
     font-size: 18px;
     font-weight: 700;
     background-color: #FED136;
     color: #FFFFFF;
     line-height: 1.21;
-    margin-top: 27px;
+    margin-top: 25px;
     padding: 18px 33px 28px;
+    border-radius: 5px;
 }
