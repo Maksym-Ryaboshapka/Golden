@@ -131,7 +131,7 @@
     padding: 14px 286px 181px 22px;
     border-radius: 5px;
     width: 458px;
-    max-height: 212px;
+    height: 212px;
 }
 
 .footer-textarea::placeholder {
